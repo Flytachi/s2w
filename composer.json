@@ -1,20 +1,8 @@
 {
-    "name": "flytachi/winter",
-    "description": "Winter Framework (CLI/WEB)",
-    "keywords": [
-        "Winter",
-        "winter",
-        "framework"
-    ],
-    "type": "project",
+    "name": "flytachi/s2w",
+    "description": "s2s",
+    "type": "library",
     "license": "MIT",
-    "extra": {
-        "project": {
-            "name": "s2w",
-            "version": "1.0.0",
-            "description": "Winter framework based"
-        }
-    },
     "scripts": {
         "post-create-project-cmd": [
             "chmod -R 775 storage",
